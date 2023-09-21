@@ -24,7 +24,7 @@ export default function HomeIndex() {
           swipeEnabled: true,
           tabBarActiveTintColor: '#000',
           tabBarLabelStyle: {fontSize: setSpText(22)},
-          tabBarStyle: {backgroundColor: 'white'},
+          tabBarStyle: {backgroundColor: '#fff',borderTopWidth:1,borderTopColor:'#F5F5F5'},
           tabBarShowIcon: true,
           tabBarBounces: true,
           tabBarIndicator: ({state}) => {

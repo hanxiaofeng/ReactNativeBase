@@ -76,9 +76,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.mediatorhelper"
+    namespace "com.rnbase"
     defaultConfig {
-        applicationId "com.mediatorhelper"
+        applicationId "com.rnbase"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

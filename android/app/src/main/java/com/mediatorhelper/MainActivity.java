@@ -1,4 +1,4 @@
-package com.mediatorhelper;
+package com.rnbase;
 
 import android.os.Bundle;
 
@@ -15,7 +15,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "mediatorHelper";
+    return "rnbase";
   }
 
   @Override

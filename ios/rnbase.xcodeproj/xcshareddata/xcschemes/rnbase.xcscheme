@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "mediatorHelper.app"
-               BlueprintName = "mediatorHelper"
-               ReferencedContainer = "container:mediatorHelper.xcodeproj">
+               BuildableName = "rnbase.app"
+               BlueprintName = "rnbase"
+               ReferencedContainer = "container:rnbase.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "mediatorHelperTests.xctest"
-               BlueprintName = "mediatorHelperTests"
-               ReferencedContainer = "container:mediatorHelper.xcodeproj">
+               BuildableName = "rnbaseTests.xctest"
+               BlueprintName = "rnbaseTests"
+               ReferencedContainer = "container:rnbase.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "mediatorHelper.app"
-            BlueprintName = "mediatorHelper"
-            ReferencedContainer = "container:mediatorHelper.xcodeproj">
+            BuildableName = "rnbase.app"
+            BlueprintName = "rnbase"
+            ReferencedContainer = "container:rnbase.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "mediatorHelper.app"
-            BlueprintName = "mediatorHelper"
-            ReferencedContainer = "container:mediatorHelper.xcodeproj">
+            BuildableName = "rnbase.app"
+            BlueprintName = "rnbase"
+            ReferencedContainer = "container:rnbase.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

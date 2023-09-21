@@ -1,4 +1,4 @@
-package com.mediatorhelper;
+package com.rnbase;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
