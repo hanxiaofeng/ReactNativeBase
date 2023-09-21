@@ -7,6 +7,8 @@ import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
 import com.facebook.react.defaults.DefaultReactActivityDelegate;
 
+import org.devio.rn.splashscreen.SplashScreen;
+
 public class MainActivity extends ReactActivity {
 
   /**
@@ -20,6 +22,8 @@ public class MainActivity extends ReactActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
+    // 显示启动屏，第二个参数是我们自定义主题的引用
+    SplashScreen.show(this, true);
     super.onCreate(null);
   }
 

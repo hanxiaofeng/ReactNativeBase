@@ -5,6 +5,7 @@ import {setSpText} from '../util/ScreenAuto';
 import {useNavigation} from '@react-navigation/core';
 // 引入
 import {CommonActions} from '@react-navigation/native';
+import SplashScreen from 'react-native-splash-screen';
 
 type Props = {
   navigation: any;
@@ -18,6 +19,10 @@ export default class LoginPage extends Component<Props, State> {
   }
 
   state = {};
+
+  componentDidMount(): void {
+    SplashScreen.hide();
+  }
 
   jumpHome() {
     // this.navigation.goBack();

@@ -11,6 +11,7 @@ import {
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {scaleSizeH, scaleSizeW, setSpText} from '../../util/ScreenAuto';
 import StatusBarModule from '../../components/Statusbar';
+import SplashScreen from 'react-native-splash-screen';
 
 type Props = {
   navigation: any;
@@ -22,10 +23,7 @@ export default class MainPage extends Component<Props, State> {
   state = {};
 
   componentDidMount(): void {
-    console.log(
-      global.Android ? 'Android --: ' : 'IOS: ',
-      StatusBar.currentHeight,
-    );
+    SplashScreen.hide();
   }
 
   render() {
